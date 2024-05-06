@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  width: 546px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+
+  border: 3px solid black;
+  border-radius: 10px;
+
+  padding-top: 20px;
+}
+
+.text-profile {
+  margin: 0;
+}
+
+.avatar {
+  border-radius: 50%;
+  background: darkslategray;
+  width: 240px;
+  width: 240px;
+}
+
+.name-text {
+  font-size: 48px;
+  color: black;
+}
+
+.gray-text {
+  color: gray;
+  font-size: 40px;
+}
+
+.list-stats {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+.element-stat {
+  width: 183px;
+  height: 110px;
+  border-right: 3px solid gray;
+  border-top: 3px solid gray;
+  background: darkgray;
+  color: black;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.element-stat:last-child {
+  border-right: none;
+}
+
+.element-stat span {
+  font-size: 30px;
+}

@@ -1,0 +1,9 @@
+.list-friends {
+  display: flex;
+  gap: 10px;
+}
+
+.friend-card {
+  border: 2px solid black;
+  border-radius: 5px;
+}
